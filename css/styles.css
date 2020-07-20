@@ -1,0 +1,16 @@
+#button{
+  margin-top: 20px;
+  image-orientation: relative;
+}
+h1{
+  font-family: cursive;
+}
+.card-title{
+  font-family:  cursive;
+}
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  image-orientation: absolute;
+}
