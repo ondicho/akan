@@ -3,6 +3,7 @@
   <head>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
     <script src="js/scripts.js" charset="utf-8"></script>
     <meta charset="utf-8">
     <title>Akan</title>
@@ -22,17 +23,17 @@
                     <div class="form-group">
                       <label for="mydate">Day</label>
                       <input type="date" class="form-control" id="mydate">
-                    </div
+                    </div>
                     <button type="button" class="btn btn-primary" onclick="getValue()">Submit</button>
                   </form>
                 </div>
             </div>
           </div>
           <div class="col-md-6">
-            <div class="card">
+            <div class="card" id="results">
               <div class="jumbotron">
                 <div class="card-title">Results</div></div>
-                <div class="card-body" id="results"></div>
+                <div class="card-body" id="resultsBody"></div>
             </div>
           </div>
         </div>

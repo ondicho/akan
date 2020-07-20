@@ -8,9 +8,6 @@ h1{
 .card-title{
   font-family:  cursive;
 }
-.img-responsive {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  image-orientation: absolute;
+#results{
+  display: none;
 }
