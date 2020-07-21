@@ -13,9 +13,19 @@ function getValue() {
 var year=parseInt(date);
 document.getElementById("second").innerHTML=year;
 
-if (x=1) {
+if (x===1 && x!==0) {
   document.getElementById("third").innerHTML="I am male";
-} else if (y=1) {
+} else {
   document.getElementById("third").innerHTML="I am female";
 }
+
+var birthDate=new Date(date);
+var year=birthDate.getFullYear();
+var yearString=year.toString()
+var CC=yearString.slice(0,2);
+var YY=yearString.slice(2,4);
+var MM=birthDate.getMonth()+1;
+var DD=birthDate.getDate();
+
+document.getElementById("fourth").innerHTML=YY;
 }
