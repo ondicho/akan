@@ -11,3 +11,13 @@ h1{
 #results{
   display: none;
 }
+.card{
+  background-color: rgba(2, 166, 191, 0.4);
+}
+.jumbotron{
+    background-color: rgba(171, 178, 185, 0.4)  ;
+}
+body{
+  background-image: url("https://cdn.pixabay.com/photo/2016/04/13/20/03/sun-1327579_960_720.jpg");
+  background-position: bottom right;
+}
