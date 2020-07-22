@@ -12,12 +12,13 @@ h1{
   display: none;
 }
 .card{
-  background-color: rgba(2, 166, 191, 0.4);
+  background-color: rgba(2, 166, 191, 0.9);
 }
 .jumbotron{
-    background-color: rgba(171, 178, 185, 0.4)  ;
+    background-color: rgba(171, 178, 185, 0.9)  ;
 }
 body{
-  background-image: url("https://cdn.pixabay.com/photo/2016/04/13/20/03/sun-1327579_960_720.jpg");
-  background-position: bottom right;
+  background-image: url("https://cdn.pixabay.com/photo/2020/07/14/19/47/armillary-sphere-5405533_960_720.png");
+  background-position: center;
+  background-repeat:  no-repeat;
 }
