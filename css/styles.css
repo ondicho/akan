@@ -18,7 +18,7 @@ h1{
     background-color: rgba(171, 178, 185, 0.9)  ;
 }
 body{
-  background-image: url("https://cdn.pixabay.com/photo/2020/07/14/19/47/armillary-sphere-5405533_960_720.png");
+/*   background-image: url("https://cdn.pixabay.com/photo/2020/07/14/19/47/armillary-sphere-5405533_960_720.png"); */
   background-position: center;
   background-repeat:  no-repeat;
 }
